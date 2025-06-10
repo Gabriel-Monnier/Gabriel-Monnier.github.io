@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="accueil">
+        <div class="profile-container">
+            <div class="profile-img">
+                <!-- Remplacez l'URL ci-dessous par le lien de votre photo -->
+                <img src="Ressources/photo_profil.jpg" alt="Photo de profil Gabriel Monnier" id="profile-image">
+            </div>
+            <h1>Monnier Gabriel</h1>
+            <p>Étudiant en BUT Informatique</p>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="nav-container">
+            <a href="#accueil" class="logo">Mon Portfolio</a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#parcours">Parcours</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+    
+    <main>
+        <section id="apropos">
+            <h2>À propos de moi</h2>
+            <p>Je suis actuellement étudiant en BUT Informatique à l'IUT de Lannion. Passionné par le développement informatique et les nouvelles technologies, je cherche à approfondir mes connaissances et compétences dans ce domaine en constante évolution.</p>
+            <p>Mon objectif professionnel est de devenir développeur back-end ou full-stack ainsi que trouver une alternance pour mes études afin de gagner en expérience dans le monde professionnel</p>
+            <p>En dehors de mes études, je m'intéresse à la natation et aux jeux-vidéo.</p>
+        </section>
+        
+        <section id="competences">
+            <h2>Mes compétences</h2>
+            <div class="competences-grid">
+                <div class="competence-card">
+                    <h3><div class="competence-icon">1</div> Réaliser un développement d'application</h3>
+                    <p>Conception et développement d'applications en suivant les bonnes pratiques du génie logiciel. Maîtrise des langages Java, Python et JavaScript.</p>
+                </div>
+                
+                <div class="competence-card">
+                    <h3><div class="competence-icon">2</div> Optimiser des applications informatiques</h3>
+                    <p>Analyse et optimisation des performances d'applications. Maîtrise des algorithmes complexes et des structures de données avancées.</p>
+                </div>
+                
+                <div class="competence-card">
+                    <h3><div class="competence-icon">3</div> Administrer des systèmes informatiques</h3>
+                    <p>Installation, configuration et maintenance des systèmes Linux et Windows. Gestion des services réseau et des bases de données.</p>
+                </div>
+                
+                <div class="competence-card">
+                    <h3><div class="competence-icon">4</div> Gérer des données de l'information</h3>
+                    <p>Conception et administration de bases de données. Maîtrise de SQL, MongoDB et des techniques d'analyse de données.</p>
+                </div>
+                
+                <div class="competence-card">
+                    <h3><div class="competence-icon">5</div> Conduire un projet</h3>
+                    <p>Gestion de projets informatiques avec méthodologies agiles (Scrum). Organisation, planification et suivi des développements en équipe.</p>
+                </div>
+                
+                <div class="competence-card">
+                    <h3><div class="competence-icon">6</div> Collaborer au sein d'une équipe informatique</h3>
+                    <p>Communication technique, travail en équipe et partage de connaissances. Utilisation d'outils collaboratifs comme Git, Trello et Slack.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="projets">
+            <h2>Mes projets</h2>
+            <div class="projets-grid">
+                <div class="projet-card">
+                    <div class="projet-img">
+                        <!-- Remplacez l'URL ci-dessous par l'image de votre projet -->
+                        <img src="Ressources/Gospers_glider_gun.gif" alt="Jeu de la vie">
+                    </div>
+                    <div class="projet-content">
+                        <h3>Jeu de la vie de Conway</h3>
+                        <p>Développement en Python du jeu de la vie de Conway, avec interface graphique créé avec Pygame, en solo.</p>
+                        <div class="competence-tags">
+                            <span class="competence-tag">Compétence 1</span>
+                            <span class="competence-tag">Compétence 2</span>
+                            <span class="competence-tag">Compétence 3</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="projet-card">
+                    <div class="projet-img">
+                        <!-- Remplacez l'URL ci-dessous par l'image de votre projet -->
+                        <img src="Ressources/Snake.gif" alt="Snake le jeu">
+                    </div>
+                    <div class="projet-content">
+                        <h3>Jeu Snake</h3>
+                        <p>Création d'un jeu Snake en C pouvant être contrôlé manuellement ou automatisé, en équipe de deux.</p>
+                        <div class="competence-tags">
+                            <span class="competence-tag">Compétence 1</span>
+                            <span class="competence-tag">Compétence 2</span>
+                            <span class="competence-tag">Compétence 6</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="projet-card">
+                    <div class="projet-img">
+                        <!-- Remplacez l'URL ci-dessous par l'image de votre projet -->
+                        <img src="Ressources/BDD.png" alt="Administration réseau">
+                    </div>
+                    <div class="projet-content">
+                        <h3>Création d'une base de données</h3>
+                        <p>Création d'une base de données à partir d'un texte en SQL puis la peupler et la manipuler pour obtenir différentes statistiques, en équipe de deux.</p>
+                        <div class="competence-tags">
+                            <span class="competence-tag">Compétence 4</span>
+                            <span class="competence-tag">Compétence 6</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="projet-card">
+                    <div class="projet-img">
+                        <!-- Remplacez l'URL ci-dessous par l'image de votre projet -->
+                        <img src="https://via.placeholder.com/300x180/f39c12/ffffff?text=E-commerce+DB" alt="Base de données e-commerce">
+                    </div>
+                    <div class="projet-content">
+                        <h3>Base de données e-commerce</h3>
+                        <p>Conception et implémentation d'une base de données pour une plateforme e-commerce avec optimisation des requêtes.</p>
+                        <div class="competence-tags">
+                            <span class="competence-tag">Compétence 1</span>
+                            <span class="competence-tag">Compétence 5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="parcours">
+            <h2>Mon parcours</h2>
+            <div class="parcours-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - Aujourd'hui</div>
+                    <h3>BUT Informatique</h3>
+                    <p>IUT de Lannion</p>
+                    <p><a href="https://iut-lannion.univ-rennes.fr/" target="_blank">Site de l'IUT</a></p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2024</div>
+                    <h3>Baccalauréat Général</h3>
+                    <p>Mention bien</p>
+                    <p>Spécialités Mathématiques et Numérique et Sciences Informatiques</p>
+                    <p>Lycée Saint-Louis, Châteaulin</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2022</div>
+                    <h3>Stage découverte</h3>
+                    <p>Découverte du métier d'ingénieur informatique au sein de l'entreprise Sopra Steria</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-container">
+                <div class="contact-card">
+                    <div class="contact-icon">📧</div>
+                    <h3>Email</h3>
+                    <p>monnier.gabriel29@gmail.com</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">📱</div>
+                    <h3>Téléphone</h3>
+                    <p>07 89 54 55 51</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">🔗</div>
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://www.linkedin.com/in/gabriel-monnier-163100352/" target="_blank">linkedin.com/in/gabriel-monnier</a></p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">💻</div>
+                    <h3>GitHub</h3>
+                    <p><a href="https://github.com/Gabriel-Monnier" target="_blank">github.com/gabriel-monnier</a></p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 2rem;">
+                <button class="download-cv" onclick="downloadCV()">Télécharger mon CV (PDF)</button>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2025 Monnier Gabriel - Portfolio personnel</p>
+        <p>Dernière mise à jour : 28 mai 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
